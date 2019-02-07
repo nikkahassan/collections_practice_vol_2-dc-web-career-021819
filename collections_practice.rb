@@ -32,8 +32,8 @@ end
     cool.select {|i| i.any? {|k,v| v == "cool"}} 
 end
 
-def organize_schools(schools)
-  schools.each_with_object({}) do |(name, data), res|
+def organize_schools(array)
+  array.each_with_object({}) do |(name, data), res|
   (res[data[:location]] ||= [location]) << name
 end
       
