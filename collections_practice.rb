@@ -25,5 +25,5 @@ def contain_a(array)
  end
  
  def merge_data(keys, data)
-   keys.deep_merge(data) { |keys, this_val, other_val| this_val + other_val }
+   keys.deep_merge(data) { |key, this_val, other_val| this_val + other_val }
  end
