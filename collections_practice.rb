@@ -25,5 +25,5 @@ def contain_a(array)
  end
  
  def merge_data(key, data)
-   a.merge(b) { |k, x, y| x + y }
-    end
+   key.deep_merge(data)
+ end
