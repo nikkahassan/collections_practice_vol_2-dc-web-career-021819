@@ -29,5 +29,7 @@ def contain_a(array)
 end
 
 def find_cool(cool)
-  
+  array.each do |element|
+    if element temperature == "cool"
+      
   
