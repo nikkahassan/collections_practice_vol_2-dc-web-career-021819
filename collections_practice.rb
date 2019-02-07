@@ -24,6 +24,6 @@ def contain_a(array)
     map { |name, count| { :name=>name, :count=>count } }
  end
  
- def merge_data(key, data)
-   key.deep_merge(data)
+ def merge_data(keys, data)
+   keys.deep_merge(data)
  end
