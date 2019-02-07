@@ -26,5 +26,4 @@ def contain_a(array)
  
  def merge_data(keys, data)
   keys.merge(data){|key, oldval, newval| newval - oldval}
-  return merged_data
 end
