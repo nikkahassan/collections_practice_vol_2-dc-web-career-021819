@@ -28,8 +28,8 @@ def contain_a(array)
   return merged_data
 end
 
-def find_cool(cool)
-  array.each do |element|
-    if element temperature == "cool"
+  def find_cool(cool)
+    cool.select {|i| i.any? {|k,v| v == "cool"}} 
+end
       
   
