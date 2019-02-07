@@ -28,5 +28,6 @@ def contain_a(array)
   return merged_data
 end
 
-def find_cool
+def find_cool(cool)
+  
   
